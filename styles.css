@@ -56,7 +56,7 @@ header nav{
     padding-bottom: 35px;
     display: flex;
     justify-content: space-between;
-    /* border: 2px solid red; */
+    
 }
 header nav button{
     color: rgb(13, 19, 33);
@@ -109,4 +109,111 @@ header nav button{
     padding: 21px 24px;
     margin-top: 32px;
     margin-bottom: 44px;
+}
+
+/* Why web development Styles*/
+
+.web-reason{
+    border-radius: 16px;
+    background: rgba(13, 19, 33, 0.02);
+    margin: 74px 152px 0 148px;
+    
+}
+
+.web-reason-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:center ;
+    padding: 80px 97px;
+    
+}
+.web-reason-paragraph{
+    text-align: center;
+    max-width: 852px;
+    line-height: 26px;
+    margin-top: 24px;
+}
+
+.web-reason-card-container{
+    margin-top: 48px;
+    gap: 32px;
+    display: flex;
+    flex-direction: column;
+}
+
+.web-reason-card-a{
+    display: flex;
+    justify-content: space-between;
+    padding: 48px;
+    border-radius: 16px;
+    width: 1080px;
+    background: linear-gradient(90.00deg, rgb(255, 255, 255),rgba(255, 255, 255, 0) 100%);
+}
+
+.web-reason-card-b{
+    display: flex;
+    gap: 32px;
+    padding: 48px;
+    border-radius: 16px;
+    background: linear-gradient(270.00deg, rgb(255, 255, 255),rgba(255, 255, 255, 0) 100%);
+}
+
+.card-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: start;
+}
+.card-title{
+    color: rgba(13, 19, 33, 0.7);
+    font-family: Azeret Mono;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 36px;
+    letter-spacing: 0%;
+    max-width: 550px;
+}
+
+.card-paragraph{
+    max-width: 468px;
+    margin-top: 32px;
+}
+
+.card-btn{
+    color: rgb(13, 19, 33);
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 23px;
+    letter-spacing: 0%;
+    text-align: center;
+    box-sizing: border-box;
+    border: 1px solid rgb(13, 19, 33);
+    opacity: 0.7;
+    padding: 12px 20px 12px 20px;
+    background-color: white;
+}
+
+/* Inspiration section style */
+.inspiration{
+    margin-top: 90px;
+    text-align: center;
+}
+.inspiration h2{
+    color: rgb(13, 19, 33);
+    font-weight: 800;
+    line-height: 37px;
+    letter-spacing: 0%;
+    
+}
+.inspiration p{
+    margin-top: 24px;
+    color: rgb(13, 19, 33);
+    line-height: 26px;
+}
+.inspiration-video{
+    padding: 32px;
+    margin: 48px 148px 0 148px;
+    border: 1px solid rgba(13, 19, 33, 0.2);
+    border-radius: 16px;
 }
