@@ -39,3 +39,28 @@ h5{
     font-weight: 600;
     letter-spacing: 0%;
 }
+
+/* Navbar Style */
+
+header nav{
+    padding-top: 38px;
+    padding-right: 168px;
+    padding-left: 150px;
+    padding-bottom: 35px;
+    display: flex;
+    justify-content: space-between;
+    border: 2px solid red;
+}
+header nav button{
+    color: rgb(13, 19, 33);
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 23px;
+    border-radius: 8px;
+    text-align: center;
+    padding: 17px 24px;
+    background-color: white;
+    border: 1px solid rgb(13, 19, 33);
+    opacity: 0.8;
+}
+
