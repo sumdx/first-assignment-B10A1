@@ -1,2 +1,41 @@
 /* Font linked */
 @import url('https://fonts.googleapis.com/css2?family=Azeret+Mono:ital,wght@0,100..900;1,100..900&display=swap');
+
+/* Shared and Universal Style */
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Azeret Mono;
+}
+
+h1{
+    color: rgb(13, 19, 33);
+    font-size: 48px;
+    font-weight: 800;
+    line-height: 68px;
+    letter-spacing: 0%;
+}
+
+h2{
+    font-size: 32px;
+    font-weight: 800;
+    letter-spacing: 0%;
+}
+
+h3{
+    font-size: 28px;
+    font-weight: 800;
+    letter-spacing: 0%;
+}
+
+h4{
+    height: 24px;
+    font-weight: 600;
+    letter-spacing: 0%;
+}
+
+h5{
+    font-size: 20px;
+    font-weight: 600;
+    letter-spacing: 0%;
+}
