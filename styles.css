@@ -10,6 +10,7 @@ NB: I tried different type of selectors for practicing.
     margin: 0;
     padding: 0;
     font-family: "Azeret Mono", monospace;
+    scroll-behavior: rough;
 }
 button{
     cursor: pointer;
@@ -402,9 +403,11 @@ header nav button{
     border-radius: 8px;
     width: 1044px;
     padding: 19px 20px;
-    
     color: rgba(13, 19, 33, 0.4);
-
+    box-sizing: border-box;
+    border: 1px solid rgba(13, 19, 33, 0.15);
+    border-radius: 8px;
+    background: rgb(255, 255, 255);
     font-size: 16px;
     font-weight: 400;
     line-height: 19px;
