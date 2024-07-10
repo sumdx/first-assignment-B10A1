@@ -217,3 +217,58 @@ header nav button{
     border: 1px solid rgba(13, 19, 33, 0.2);
     border-radius: 16px;
 }
+
+/* Current Target Style*/
+.current-target-content{
+    margin-top: 151px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+.current-target-content>p{
+    margin-top: 24px;
+
+}
+
+.current-card-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 80px;
+    margin-top: 48px;
+}
+.current-card-a{
+    text-align: start;
+    padding: 40px;
+    border-radius: 16px;
+    background: rgba(255, 76, 30, 0.05);
+}
+.current-card-container h4{
+    margin-top: 24px;
+}
+.current-card-container p{
+    margin-top: 8px;
+    max-width: 400px;
+    margin-bottom: 24px;
+}
+.current-card-container a{
+    margin-top: 24px;
+    color: rgb(13, 19, 33);
+    text-decoration: underline;
+    font-weight: 700;
+}
+
+.current-card-b{
+    text-align: start;
+    padding: 40px;
+    border-radius: 16px;
+    background: rgba(0, 76, 232, 0.05);
+}
+.current-card-c{
+    text-align: start;
+    padding: 40px;
+    border-radius: 16px;
+    background: rgba(255, 223, 0, 0.05);
+}
+
