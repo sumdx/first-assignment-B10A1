@@ -7,6 +7,9 @@
     padding: 0;
     font-family: "Azeret Mono", monospace;
 }
+button{
+    cursor: pointer;
+}
 
 h1{
     color: rgb(13, 19, 33);
@@ -98,7 +101,7 @@ header nav button{
     margin-top: 24px;
     line-height: 26px;
 }
-.banner div button{
+.banner div a{
     font-size: 20px;
     color: rgb(255, 255, 255);
     font-weight: 600;
@@ -109,6 +112,8 @@ header nav button{
     padding: 21px 24px;
     margin-top: 32px;
     margin-bottom: 44px;
+    cursor: pointer;
+    text-decoration: none;
 }
 
 /* Why web development Styles*/
@@ -228,7 +233,7 @@ header nav button{
 }
 .current-target-content>p{
     margin-top: 24px;
-
+    line-height: 26px;
 }
 
 .current-card-container{
@@ -245,7 +250,15 @@ header nav button{
     background: rgba(255, 76, 30, 0.05);
 }
 .current-card-container h4{
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 24px;
+    font-weight: 800;
+    line-height: 36px;
+    letter-spacing: 0%;
+    text-align: left;
     margin-top: 24px;
+    margin-bottom: 24px;
 }
 .current-card-container p{
     margin-top: 8px;
@@ -272,3 +285,67 @@ header nav button{
     background: rgba(255, 223, 0, 0.05);
 }
 
+/* My next Target Section */
+
+.next-target{
+    margin-top: 111px;
+    text-align: center;
+}
+.next-target>p{
+    margin-top: 24px;
+    margin-bottom: 48px;
+}
+
+.boxes{
+    
+    text-align: start;
+    gap: 24px;
+    display: flex;
+    flex-direction: column;
+    margin:0 150px;
+    align-items: center;
+}
+.box-image-cont{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.box{
+    width: 1520px;
+    display: flex;
+    gap: 24px;
+    flex-direction: row;
+    padding: 40px;
+    border: 1px solid rgba(13, 19, 33, 0.15);
+    border-radius: 16px;
+    background: rgb(255, 255, 255);
+}
+
+
+
+.box img{
+    align-items: center;
+    text-align: center;
+    max-height: 108px;
+}
+
+.box-content h4{
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.box-content p{
+    color: rgb(13, 19, 33);
+    line-height: 26px;
+    letter-spacing: 0%;
+    margin-bottom: 24px;
+}
+
+.box-content a{
+    font-size: 16px;
+    font-weight: 700;
+    margin-top: 24px;
+    color: rgb(13, 19, 33);
+    text-decoration: underline;
+    font-weight: 700;
+}
